@@ -59,7 +59,7 @@ class MANUAL_Q{
 template<typename PointType>
 class KD_TREE{
 public:
-    using PointVector = vector<PointType>>;
+    using PointVector = vector<PointType>;
     using Ptr = shared_ptr<KD_TREE<PointType>>;
     struct KD_TREE_NODE{
         PointType point;
